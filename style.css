@@ -14,17 +14,31 @@ body {
   align-items: center;
   height: 100vh;
 }
+.calculator {
+  padding: 20px 15px;
+  border-radius: 10px;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.screen {
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 .outputScreen,
 .inputScreen {
   padding: 15px;
-  background: gray;
-  border: 2px solid red;
-  color: #fff;
+  color: #aaa;
   text-align: right;
+  height: 50px;
+}
+.outputScreen {
+  font-size: 22px;
+}
+.inputScreen {
+  font-size: 18px;
 }
 .btnKeys {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 15px;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 30px;
 }
